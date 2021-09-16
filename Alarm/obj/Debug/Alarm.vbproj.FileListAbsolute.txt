@@ -1,0 +1,16 @@
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\bin\Debug\Alarm.exe.config
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\bin\Debug\Alarm.exe
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\bin\Debug\Alarm.pdb
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\bin\Debug\Alarm.xml
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.Form1.resources
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.Resources.resources
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.vbproj.GenerateResource.Cache
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.exe
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.xml
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.pdb
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\bin\Debug\Alarm.exe.manifest
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\bin\Debug\Alarm.application
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.exe.manifest
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.application
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.Form2.resources
+C:\Users\user1\Desktop\visual basic\Alarm\Alarm\obj\Debug\Alarm.tones.resources
