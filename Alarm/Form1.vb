@@ -1,9 +1,5 @@
 ﻿Public Class Form1
 
-    Dim s As Integer
-    Dim m As Integer
-    Dim h As Integer
-
     Dim sec As String
     Dim min As String
     Dim hour As String
@@ -17,13 +13,9 @@
 
     Private Sub tim_Tick(sender As Object, e As EventArgs) Handles tim.Tick
 
-        s = DateTime.Now.TimeOfDay.Seconds
-        m = DateTime.Now.TimeOfDay.Minutes
-        h = DateTime.Now.TimeOfDay.Hours
-
-        sec = String.Format("{0:0#}", s)
-        min = String.Format("{0:0#}", m)
-        hour = String.Format("{0:0#}", h)
+        sec = DateTime.Now.ToString("ss")
+        min = DateTime.Now.ToString("mm")
+        hour = DateTime.Now.ToString("HH")
 
         Dim tsec As String = ts.Text
         Dim tmin As String = tm.Text
@@ -204,6 +196,10 @@
 
     Private Sub stn_Click(sender As Object, e As EventArgs) Handles stn.Click
         Form2.Show()
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
