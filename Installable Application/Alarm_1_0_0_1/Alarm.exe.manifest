@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Alarm.exe" version="1.0.0.1" publicKeyToken="9f9573de631901d5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Alarm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Alarm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alarm.exe" size="17705472">
+      <assemblyIdentity name="Alarm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q9bfUe3v3U/Es2Uc59uEKYxwatHLipvTK6I6ZS+K4sw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Alarm.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BG\BG" issuerKeyHash="3a08086981b8a72f99b39e6509061231613dcd63" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OkHq9b1/cdVddnUJO64dqDos27ruqXBymlGre2OLx2w=</DigestValue></Reference></SignedInfo><SignatureValue>Qnwk+fR43tk4LFDizHIbrgWeQR+Xk3I/DP8oHYjIoBRqs3S3U0FKel8RDUYK6jSxOUV9mwS+YVFIAchBaaxV5Y23kE5Ba60ffCWrJWpEwEHM7MZetFDW4/37GMUA68n0q0ZxAO/WTZGp9gtgUGP1ImYonVXEnuVx59TW+SU8Cd0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1pysGf324FJyKbPtfc2bxtoj78FX6m6MPiAobbbLIAe2X7irsc3nJoiHfeZVe1ALhYFv1GrqNgX2+CDURFI7dfg8i9vrdkFd/XRHEYiKwUV5pnvyzdzcDqETuqWMlIGcf9LcpCbEDcnw8DgHfmozy6Rx1TkFnzsrJTYo6OwLZMs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6cc78b637bab519a7270a9eebadb2c3aa81dae3b0975765dd5717fbdf5ea413a" Description="" Url=""><as:assemblyIdentity name="Alarm.exe" version="1.0.0.1" publicKeyToken="9f9573de631901d5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BG\BG</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qAnf/Fb9gt7CtNukOT4cPINi+Zhw6ADxy4FrYzDJJLI=</DigestValue></Reference></SignedInfo><SignatureValue>Z61iThaPAC85sHAteBUO+DjBlN5tH0d0cbYfDAt6m1HWeOAq3Ib5b7P95uCdREziqSpxGqDuHtlVrq6OlIq+TElN5Ka+53RXwgS+U4w6kSIUKJKBAEHJPwefNM5hNV8UIFMArlgNEWkizRkJ/P57e2cA1trgvm+5ha4VOH8/AuE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1pysGf324FJyKbPtfc2bxtoj78FX6m6MPiAobbbLIAe2X7irsc3nJoiHfeZVe1ALhYFv1GrqNgX2+CDURFI7dfg8i9vrdkFd/XRHEYiKwUV5pnvyzdzcDqETuqWMlIGcf9LcpCbEDcnw8DgHfmozy6Rx1TkFnzsrJTYo6OwLZMs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBrTCCARagAwIBAgIQSaJLOQJqArNNqd0MrCgvPzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDHgoAQgBHAFwAQgBHMB4XDTIwMTExNzE2Mzg1OFoXDTIxMTExNzIyMzg1OFowFTETMBEGA1UEAx4KAEIARwBcAEIARzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1pysGf324FJyKbPtfc2bxtoj78FX6m6MPiAobbbLIAe2X7irsc3nJoiHfeZVe1ALhYFv1GrqNgX2+CDURFI7dfg8i9vrdkFd/XRHEYiKwUV5pnvyzdzcDqETuqWMlIGcf9LcpCbEDcnw8DgHfmozy6Rx1TkFnzsrJTYo6OwLZMsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCTY30tmLTHd1qA82T6kPJhvQiWbx+gR4e5xD74jNCZcnX9VrtYXVqtxCcGi8X6iZ5EDaXjpGTdGuHB1ONguTE5ncgRl1RI3fa/J2qEC3ygnJIxFFZmWr3r+hMlX5iooZy+zRf2OcGIKaoMVr1kZH65Je5p6sEm74qCZaJs0pZ+9w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
