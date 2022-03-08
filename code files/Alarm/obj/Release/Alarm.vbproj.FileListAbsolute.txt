@@ -34,3 +34,19 @@ C:\Users\user1\Documents\Programming\Projects\Alarm\Alarm\obj\Release\Alarm.tone
 C:\Users\user1\Documents\Programming\Projects\Alarm\Alarm\obj\Release\Alarm.vbproj.GenerateResource.Cache
 C:\Users\user1\Documents\Programming\Projects\Alarm\Alarm\obj\Release\Alarm.exe.manifest
 C:\Users\user1\Documents\Programming\Projects\Alarm\Alarm\obj\Release\Alarm.application
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\bin\Release\Alarm.exe.config
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\bin\Release\Alarm.exe.manifest
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\bin\Release\Alarm.application
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\bin\Release\Alarm.exe
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\bin\Release\Alarm.pdb
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\bin\Release\Alarm.xml
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.Form1.resources
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.Form2.resources
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.Resources.resources
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.tones.resources
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.vbproj.GenerateResource.Cache
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.exe.manifest
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.application
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.exe
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.xml
+C:\Users\user1\Documents\Programming\Projects\Alarm\code files\Alarm\obj\Release\Alarm.pdb
